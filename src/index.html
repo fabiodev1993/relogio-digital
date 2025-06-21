@@ -6,7 +6,20 @@
   <title>Relógio Digital</title>
   <link href="./output.css" rel="stylesheet" />
 </head>
-<body>
-  <p class="text-blue-800">teste</p>
+<body class="h-svh bg-no-repeat bg-gradient-to-br from-amber-400 to-amber-700">
+  <div class="flex items-center justify-center gap-8 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-transparent w-120 h-40 rounded-xl shadow-[0_8px_8px_rgba(0,0,0,0.5)] text-white font-sans font-bold">
+    <div class="bg-gray-900 w-30 h-30 rounded-xl flex flex-col items-center justify-center">
+      <span id="horas" class="text-5xl">00</span>
+      <span class="text-sm tracking-wider">Horas</span>
+    </div>
+    <div class="bg-gray-900 w-30 h-30 rounded-xl flex flex-col items-center justify-center">
+      <span id="minutos" class="text-5xl">00</span>
+      <span class="text-sm tracking-wider">Minutos</span>
+    </div>
+    <div class="bg-gray-900 w-30 h-30 rounded-xl flex flex-col items-center justify-center">
+      <span id="segundos" class="text-5xl">00</span>
+      <span class="text-sm tracking-wider">Segundos</span>
+    </div>
+  </div>
 </body>
 </html>
